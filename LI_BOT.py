@@ -82,8 +82,8 @@ class Apply_Bot:
     def job_search(self, job_keyword="Data Analyst", loc="Remote"):
         # set the job title and location to search for..
         self.webdriver.get("https://www.linkedin.com/jobs/")
-        title = job_keyword
-        location = loc
+        title = input("Please type the title of the job you'd like to search for \n -->")
+        location = input("Please enter where you'd like to search for jobs... \n -->")
 
         # clear the previous search terms from the keyword and location spots
         try:
