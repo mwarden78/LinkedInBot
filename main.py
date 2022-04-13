@@ -1,5 +1,3 @@
-# This is a sample Python script.
-
 from selenium import webdriver
 from LI_BOT import Apply_Bot
 
@@ -40,4 +38,3 @@ if __name__ == '__main__':
         bot.test_job()
     elif process_type == 4:
         bot.scrape_and_apply()
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
